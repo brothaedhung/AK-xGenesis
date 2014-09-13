@@ -1,4 +1,4 @@
-/* Copyright (c) 2010,2013,  The Linux Foundation. All rights reserved.
+/* Copyright (c) 2010, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -84,6 +84,7 @@ struct msm_gemini_device {
 	int out_frag_cnt;
 
 	uint32_t bus_perf_client;
+	uint32_t core_reset;
 };
 
 int __msm_gemini_open(struct msm_gemini_device *pgmn_dev);
